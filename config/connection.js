@@ -4,7 +4,7 @@ const state={
 }
 
 module.exports.connect=function (done){
-    const url='mongodb://localhost:27017'
+    const url='mongodb+srv://admin:admin@cluster0.iwkcw.mongodb.net/jobportal?retryWrites=true&w=majority'
     const dbname='jobportal'
 
     mongoClient.connect(url,(err,data)=>{
