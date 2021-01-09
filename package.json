@@ -6,7 +6,7 @@
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
-    "bcrypt": "^5.0.0",
+    "bcrypt": "^3.8.6",
     "chart.js": "^2.9.4",
     "cookie-parser": "~1.4.4",
     "cropperjs": "^1.5.9",
